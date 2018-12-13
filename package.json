@@ -1,0 +1,89 @@
+{
+  "name": "application-name",
+  "version": "1.0.1",
+  "description": "Application description.",
+  "scripts": {
+    "start": "meteor -p 4000 --settings settings-development.json",
+    "test": "meteor test --driver-package practicalmeteor:mocha --port 5000",
+    "lint": "eslint ./imports",
+    "chimp-watch": "chimp --ddp=http://localhost:4000 --watch --mocha --path=tests",
+    "chimp-test": "chimp --ddp=http://localhost:4000 --mocha --path=tests",
+    "production": "mup deploy --settings=settings-production.json",
+    "config-upload": "aws s3 cp mup.js s3://listaschool && aws s3 cp settings-production.json s3://listaschool",
+    "config-download": "aws s3 sync s3://listaschool ."
+  },
+  "devDependencies": {
+    "chimp": "^0.51.1",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-plugin-meteor": "^5.0.0",
+    "eslint-plugin-react": "^4.3.0"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "plugins": [
+      "meteor",
+      "react"
+    ],
+    "extends": [
+      "airbnb/base",
+      "plugin:meteor/guide",
+      "plugin:react/recommended"
+    ],
+    "globals": {
+      "server": false,
+      "browser": false,
+      "expect": false
+    },
+    "rules": {
+      "import/no-unresolved": 0,
+      "no-underscore-dangle": [
+        "error",
+        {
+          "allow": [
+            "_id",
+            "_ensureIndex",
+            "_verifyEmailToken",
+            "_resetPasswordToken",
+            "_name"
+          ]
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "@babel/runtime": "7.0.0-beta.55",
+    "array-intersection": "^0.1.2",
+    "bcrypt": "^0.8.7",
+    "bootstrap": "=3.3.6",
+    "bootstrap-slider": "^9.9.0",
+    "core-js": "^2.5.7",
+    "faker": "^3.1.0",
+    "fbjs": "^0.8.3",
+    "fibers": "^2.0.2",
+    "jquery": "^2.2.3",
+    "jquery-ui": "^1.12.1",
+    "jquery-validation": "=1.15.0",
+    "lodash": "^4.17.11",
+    "meteor-node-stubs": "^0.4.1",
+    "meteor-now": "^0.2.2",
+    "prop-types": "^15.6.0",
+    "react": "=15.1.0",
+    "react-addons-pure-render-mixin": "=15.0.1",
+    "react-bootstrap": "=0.29.3",
+    "react-dom": "=15.1.0",
+    "react-ga": "^2.1.1",
+    "react-input-slider": "^4.0.0",
+    "react-komposer": "=1.7.1",
+    "react-rating": "=0.2.2",
+    "react-router": "=2.0.1",
+    "react-router-bootstrap": "=0.20.1",
+    "slug": "^0.9.1",
+    "uniforms": "=1.0.0-rc.13",
+    "uniforms-bootstrap3": "=1.0.0-rc.13"
+  }
+}

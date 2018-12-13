@@ -1,0 +1,22 @@
+.form-view-container {
+  border-radius: 3px;
+  outline: none;
+  background-color: $color-main-light;
+  color: lighten($color-main-dark, 20%);
+  padding: 50px;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto 0;
+  border: 1px solid darken($color-main-light, 8%);
+  box-shadow: 0 0 20px rgba(0, 0, 0, .05);
+
+  .form-view-description {
+    margin-bottom: 25px;
+  }
+
+  .page-header {
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 0;
+  }
+}

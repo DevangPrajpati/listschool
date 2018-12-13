@@ -1,0 +1,78 @@
+.school-view-container {
+  border-radius: 3px;
+  outline: none;
+  background-color: #fff;
+  color: #333333;
+  padding: 50px;
+  width: 100%;
+  margin: 20px auto 0;
+  border: 1px solid #ebebeb;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.school-view-comments {
+  margin-top: 30px;
+}
+
+.school-view-tabs {
+  margin-top: 30px;
+
+  .nav.nav-pills {
+    border-bottom: 1px solid lighten($color-main-dark, 30%);
+  }
+
+  .tab-item.active,
+  .tab-item {
+    a {
+      outline: none;
+      color: lighten($color-main-dark, 30%);
+      background-color: transparent;
+      font-size: 16px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: $color-main-contrast;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.school-view-tabs-items {
+  padding-bottom: 30px;
+}
+
+.school-view-title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.school-view-place {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.school-view-actions {
+  float: right;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+}
+
+.school-view-fav-icon {
+  float: right;
+  cursor: pointer;
+
+  .fa {
+    font-size: 26px;
+    color: #e20700;
+  }
+}
+
+.school-view-logo {
+  max-width: 120px;
+  width: 100%;
+}

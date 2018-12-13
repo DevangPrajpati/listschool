@@ -1,0 +1,41 @@
+.admin-list-item {
+  padding: 20px 15px;
+  border-bottom: 1px solid lighten($color-main-dark, 90%);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.admin-list-item-btn {
+  margin-left: 20px;
+  display: inline-block;
+  color: $color-main-dark;
+  font-weight: 500;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    color: $color-main-contrast;
+  }
+
+  .glyphicon {
+    margin-right: 3px;
+  }
+}
+
+.admin-school-btns {
+  text-align: right;
+}
+
+.admin-list-buttons,
+.admin-list-content {
+  border-radius: 3px;
+  outline: none;
+  background-color: $color-main-light;
+  color: lighten($color-main-dark, 20%);
+  padding: 30px;
+  margin: 20px auto 0;
+  border: 1px solid darken($color-main-light, 8%);
+  box-shadow: 0 0 20px rgba(0, 0, 0, .05);
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+$font-main: 'Poppins', sans-serif;
+$font-headers: $font-main;
+
+$box-shadow-navigation: 0 1px 5px rgba(0, 0, 0, 0.1);
+$box-shadow-filters: 0 1px 5px rgba(0, 0, 0, 0.1);
+
+$color-main-dark: #000;
+$color-main-light: #fff;
+$color-main-contrast: #ff4f49;
+$color-main-apple-green: #28a745;
+
+// Clearfix
+@mixin clearfix {
+  &::before,
+  &::after {
+    content: '';
+    display: table;
+  }
+
+  &::after {
+    clear: both;
+  }
+}

@@ -1,0 +1,25 @@
+form label.error {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  color: lighten( red, 20% );
+}
+
+label {
+  font-weight: normal;
+}
+
+.form-control {
+  border: 0;
+  border: 1px solid lighten($color-main-dark, 86%);
+  padding: 10px 15px;
+  height: auto;
+  box-shadow: none;
+  border-radius: 3px;
+
+  &:focus {
+    box-shadow: none;
+    border-color: lighten($color-main-dark, 86%);
+  }
+}

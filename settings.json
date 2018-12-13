@@ -1,0 +1,15 @@
+{
+  "public": {
+    "analytics": ""
+  },
+  "private": {
+    "mailgun": {
+      "login": "",
+      "password": ""
+    }
+  },
+  "kadira": {
+    "appId": "",
+    "appSecret": ""
+  }
+}

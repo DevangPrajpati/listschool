@@ -1,0 +1,56 @@
+@import 'settings';
+@import "base/extends";
+@import "base/animations";
+@import "base/forms";
+@import "base/headers";
+@import "components/loading";
+@import "components/login";
+@import "components/signup";
+@import "components/navbar";
+@import "components/home-filters";
+@import "components/main-app-navigation";
+@import "components/school-search-form";
+@import "components/school-tile";
+@import "components/course-tile";
+@import "components/form-views";
+@import "components/admin-lists";
+@import "components/school-view";
+
+body {
+  font-family: $font-main;
+  background-color: darken($color-main-light, 1%);
+}
+
+.main-app-container {
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+  &.no-padding {
+    padding-top: 0;
+  }
+
+  &.small-padding {
+    padding-top: 20px;
+  }
+}
+
+.grade-form {
+  tr {
+    width: 100%;
+    display: inline-block;
+    td {
+      width: 50%;
+      display: inline-block;
+    }
+  }
+}
+
+.label {
+  margin: 1px;
+  display: inline-block;
+}
+
+.social-network {
+  padding-right: 5px;
+  color: black;
+}

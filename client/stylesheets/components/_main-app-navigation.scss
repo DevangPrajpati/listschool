@@ -1,0 +1,83 @@
+.main-app-navigation {
+  background-color: #fff;
+  border: 0;
+  box-shadow: $box-shadow-navigation;
+  color: $color-main-dark;
+
+  .navbar-brand {
+    color: $color-main-dark;
+    font-weight: 500;
+    font-size: 23px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+    .diff-color {
+      color: $color-main-contrast;
+      position: relative;
+      font-size: 26px;
+      padding-left: 5px;
+      font-weight: 700;
+
+      &::after {
+        content: ' ';
+        display: block;
+        position: absolute;
+        width: 140%;
+        bottom: -8px;
+        right: 0;
+        height: 2px;
+        background-color: $color-main-contrast;
+      }
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color-main-dark;
+    }
+  }
+
+  .navbar-nav {
+    .open > a,
+    > li > a {
+      color: $color-main-contrast !important;
+      background: transparent;
+      padding-top: 25px;
+      padding-bottom: 25px;
+
+      &:hover,
+      &:active,
+      &:focus {
+        color: $color-main-light !important;
+        background: $color-main-contrast !important;
+      }
+    }
+  }
+
+  .dropdown-menu {
+    border: 0;
+    padding: 0;
+    box-shadow: $box-shadow-navigation;
+
+    li {
+      a {
+        padding-bottom: 8px;
+        padding-top: 8px;
+        background-color: transparent;
+
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: $color-main-contrast;
+          color: $color-main-light;
+        }
+      }
+    }
+  }
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: $color-main-contrast;
+  color: $color-main-light !important;
+}

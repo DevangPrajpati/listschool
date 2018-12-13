@@ -1,0 +1,173 @@
+{
+  "searchForASchoolCountryCityCourse": "Procure por escola, cidade, curso...",
+  "school": "Escola",
+  "schools": "Escolas",
+  "cities": "Cidades",
+  "countries": "Países", //TODO
+  "profile": "Perfil",
+  "contact": "Contato",
+  "suggestSchool": "Sugira uma escola", //TODO
+  "logout": "Sair", //TODO
+  "accessibility": "Acessibilidade",
+  "costOfLife": "Custo de Vida",
+  "recommended": "Recomendação",
+  "food": "Comida",
+  "historical": "Historia",
+  "leisure": "Lazer",
+  "lgbtFriendly": "LGBT Friendly", //todo
+  "transport": "Transporte",
+  "nightlife": "Vida noturna",
+  "qualityOfLife": "Qualidade de vida",
+  "qualityOfTeaching": "Qualidade dos professores",
+  "racialTolerance": "Tolerância racial",
+  "security": "Segurança",
+  "shopping": "Compras",
+  "womanFriendly": "Woman friendly", //todo
+  "feedbacks": "Feedbacks", //todo
+  "youtube": "Youtube",
+  "favourites": "Favoritos",
+  "signup": "Cadastre-se",
+  "schoolFacilities": "Instalações",
+  "schoolFacility": "Instalações", //TODO
+  "teachers": "Professores",
+  "socialExtraActivities": "Atividades extras",
+  "schoolLocation": "Localização",
+  "books": "Livros", //todo
+  "details": "Detalhes",
+  "cost": "Custo benefício", //todo
+  "enrollment": "Facilidade de Matrícula", //todo
+  "city": "Cidade",
+  "schoolNotFound": "Nenhuma escola encontrada...",
+  "userNotFound": "Nenhum usuário encontrado...",
+  "name": "Nome",
+  "lastComment": "Último comentário",
+  "information": "Informações",
+  "vote": "Avalie",
+  "language": "Língua",
+  "subject": "Tipo de Curso", //TODO
+  "location": "Países",
+  "price": "Preço", //TODO
+  "any": "Qualquer", //TODO
+  "schoolCourses": "Cursos", //TODO
+  "manageSchoolCourses": "Administre Cursos", //TODO
+  "noSchoolCoursesYet": "Sem cursos no momento", //TODO
+  "schoolCourse": "Cursos", //TODO
+  "editSchoolCourse": "Editar curso", //TODO
+  "subjects": "Tipo de curso", //TODO
+  "noSubjectsYet": "Sem cursos no momento", //TODO
+  "editSubject": "Editar tipo de curso", //TODO
+  "accommodations": "Acomodações", //TODO
+  "accommodation": "Acomodação", //TODO
+  "editAccommodation": "Editar acomodação",
+  "noSchoolFacilitiesYet": "Sem instalações no momento", //TODO
+  "teachingMaterial": "Material escolar", //TODO
+  "housing": "Acomodação", //TODO
+  "email": "Email",
+  "password": "Senha",
+  "didYouForgotThePassword": "Esqueceu a senha?",
+  "login": "Login",
+  "register": "Cadastre-se",
+  "dontYouHaveTheAccount": "Não possui uma conta ainda?",
+  "tags": "Tags", //TODO
+  "schoolFeedbacks": "AValiações da Escola", //TODO
+  "remove": "Remover", //TODO
+  "allowUsToContact": "Permite entrar em contato?",
+  "edit": "Editar", //TODO
+  "show": "Mostrar", //TODO
+  "new": "Novo", //TODO
+  "yourEmailAddress": "Seu endereço de email *",
+  "howCanWeHelpYou": "Como podemos te ajudar? *",
+  "send": "Enviar",
+  "schoolName": "Nome da escola", //TODO
+  "schoolCountry": "País da escola", //TODO
+  "schoolCity": "Cidade da escola", //TODO
+  "comments": "Comentários",  //TODO
+  "firstName": "Nome",
+  "surname": "Sobrenome",
+  "registerAction": "Cadastrar",
+  "doYouAlreadyHaveAccount": "Já tem uma conta?",
+
+  //Subjects
+  "bookNow": "Reservar Agora",
+  "general": "Geral",
+  "highSchool": "Ensino Médio",
+  "intensive": "Intensivo",
+  "junior": "Adolescentes",
+  "languageCertification": "Certificado de Proeficiência",
+  "lastMinute": "Último minuto",
+  "multiLocation": "Vários Países",
+  "oneToOne": "Aula Particular",
+  "coursePlusProfession": "Curso + Profissional",
+  "coursePlusSportCulture": "Curso + Esporte/Cultura",
+  "promotion": "Promoção",
+  "semiIntensive": "Curso Semi Intensivo",
+  "senior": "Sênior",
+  "studyAndWork": "Estudo e Trabalho",
+  "volunteer": "Voluntário",
+  "work": "Trabalho",
+  "year": "Ano acadêmico",
+  "semester": "Semestre acadêmico",
+  "certificate": "Especialização (1 ano)",
+  "diploma": "Diploma (2 anos)",
+  "advancedDiploma": "Diploma Avançado (3 anos)",
+  "degree": "Graduação (4+ anos)",
+  "graduateCertificate": "Pós Graduaçao",
+  "minCourseDuration": "Duração Mínima do Curso",
+
+  //Facilities
+  "adaptedForStudentsWithLearningDifficulty": "Ajuda para estudantes com dificuldade de aprendizado",
+  "afterClassSeminars": "Seminários depois da aula",
+  "airConditioningInClassrooms": "Ar condicionado nas salas de aula",
+  "computerLab":"Sala com computadores",
+  "culturalTrips": "Viagens culturais",
+  "disabledToilet": "Banheiro adaptado para deficientes",
+  "vendingMachine": "Máquina de comida",
+  "eatingArea": "Área para refeição",
+  "electronicWhiteboardInClassrooms": "Quadro eletrônico nas salas de aula",
+  "freeCoffee": "Café grátis",
+  "freeWifi": "Internet grátis (WiFi)",
+  "freeParking": "Estacionamento grátis",
+  "freeWaterDispenser": "Bebedouro",
+  "fridgeForStudents": "Geladeira para estudantes",
+  "gamesRoom": "Sala de jogos",
+  "heatingInClassrooms": "Aquecedor nas salas de aula",
+  "kitchenForStudents": "Cozinha para estudantes",
+  "library":"Livraria",
+  "lounge": "Lounge",
+  "microwaveForStudents": "Microondas para estudantes",
+  "movieRoom": "Sala de videos",
+  "socialActivities": "Atividades sociais",
+  "sportsActivities": "Atividades esportivas",
+  "studyingArea": "Area de estudo",
+  "tvInClassrooms": "TV nas salas de aula",
+  "tvRoom": "Sala de TV",
+  "videoGameConsole": "Video game",
+  "wheelchairAccess": "Acesso para cadeirantes",
+
+  //City feedback grades
+  // "accessibility" -> already exists here
+  //  "costOfLife" -> already exists here
+//  "leisure" -> already exists here
+  "publicTransport": "Transporte",
+  //  "costOfLife" -> already exists here
+  //  "qualityOfLife" -> already exists here,
+  "safety": "Segurança",
+
+  "cityType": "Tipo da Cidade",
+  "delete": "Deletar", //TODO
+  "noAccommodationsYet": "Sem acomodação no momento", //TODO
+
+  //City profile
+  "small": "Cidade", //TODO
+  "town": "Cidade pequena", //TODO
+  "beach": "Praia", //TODO
+  "large": "Cidade Grande", //TODO
+  "campus": "Universidade", //TODO
+  "bicycle": "Bicicleta", //TODO
+  "sports": "Esportes", //TODO
+  "snow": "Neve", //TODO
+  "sunny": "Sol", //TODO
+  "glamour": "Glamour", //TODO
+  "outdoors": "Ar livre", //TODO
+  "academic": "Acadêmico" //TODO
+}
